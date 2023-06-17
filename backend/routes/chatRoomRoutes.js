@@ -1,8 +1,12 @@
 const express = require('express');
 const router = express.Router();
 
-const { getTags } = require('../controllers/tagsController');
+const { getAllMessages, addMessage } = require("../controllers/chatRoomController");
 
-router.route('/').get(getTags);
+
+router.post("/addmsg", addMessage);
+router.post("/getmsg", getAllMessages);
+
 
 module.exports = router;
+
