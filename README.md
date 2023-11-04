@@ -5,7 +5,28 @@
 <br>
 <br>
 
-![image](image.jpg)
+## Register page
+![register](register.jpg)
+<br>
+<br>
+
+## Login page
+![login](login.jpg)
+<br>
+<br>
+
+## Selection page
+![select](select.jpg)
+<br>
+<br>
+
+## Chat page
+![chat](chat.jpg)
+<br>
+
+![chat2](chat2.jpg)
+<br>
+
 
 <br>
 
@@ -26,7 +47,7 @@
 <br>
 <br>
 
-# TECHNOLOGIES 
+# TECHNOLOGIES
 <br>
 ・ JavaScript<br>
 ・ Node.js<br>
@@ -39,17 +60,5 @@
 
 
 # REFERENCES
-Pinterest<br>
-https://www.pinterest.ca/<br>
-
-Unsplash<br>
-https://unsplash.com/<br>
-
-Color-picker<br>
-https://imagecolorpicker.com/<br>
-
-Material-Icons<br>
-https://mui.com/material-ui/material-icons/<br>
-
 React-bootstrap<br>
 https://react-bootstrap.netlify.app/<br>

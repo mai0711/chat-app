@@ -43,13 +43,12 @@ function SetAvatar() {
             const { data } = await axios.post(`${setAvatarRoute}/${user._id}`,{
                 image: avatars[selectedAvatars],
             });
+
             if(data.isSet){
                 user.isAvatarImageSet = true;
                 user.avatarImage = data.image;
                 localStorage.setItem("chat-app-user", JSON.stringify(user));
                 navigate("/");
-            }else {
-                toast.error("Error setting avatar. Please try again.", toastOptions);
             }
         }
     };
@@ -80,7 +79,7 @@ return (
         : (
         <Container>
             <div className='title-container'>
-                <h1>select avatar as your profile picture</h1>
+                <h1>Select your avatar as your profile picture</h1>
             </div>
             <div className="avatars">
                 {
@@ -93,7 +92,7 @@ return (
                     })
                 }
             </div>
-            <button className='submit-btn' onClick={setProfilePicture}>Set as Profile Picture</button>
+            <button className='submit-btn' onClick={setProfilePicture} >Set as Profile Picture</button>
         <ToastContainer />
         </Container>
         )

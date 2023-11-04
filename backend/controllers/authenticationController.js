@@ -1,5 +1,6 @@
 const Users = require("../models/users");
 const { hashPassword } = require('../helpers/userHelper');
+const bcrypt = require("bcrypt");
 
 //Register
 const registerUser = async(req, res, next) => {

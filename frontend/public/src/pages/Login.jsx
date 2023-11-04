@@ -26,9 +26,9 @@ function Login() {
 
     //user can't go to login page after user logged in
     useEffect (()=>{
-      if(localStorage.getItem("chat-app-user")){
-        navigate("/");
-      }
+        if(localStorage.getItem("chat-app-user")){
+            navigate("/");
+        }
       // eslint-disable-next-line
     }, []);
 
@@ -45,7 +45,7 @@ function Login() {
         return true;
     };
 
-    //submit button(login)
+    //login button
     const handleSubmit = async (event) => {
         event.preventDefault();
         if(handleValidation()){
