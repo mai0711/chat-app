@@ -32,18 +32,8 @@
 
 # DESCRIPTION
 ## ABOUT THE PROJECT
+This chat app allows people to communicate with their friends in real-time, enabling them to exchange text messages between individuals.
 
-<br>
-<br>
-
-## OBJECT OF THE PROJECT
-
-<br>
-<br>
-
-## TARGET USERS
-
-<br>
 <br>
 <br>
 
